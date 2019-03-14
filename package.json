@@ -1,0 +1,29 @@
+{
+  "name": "car_service_site_project",
+  "version": "1.0.0",
+  "description": "![GitHub Logo](images/banana.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noldor5150/Service_site_project.git"
+  },
+  "author": "Paulius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noldor5150/Service_site_project/issues"
+  },
+  "homepage": "https://github.com/Noldor5150/Service_site_project#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-assemble": "^0.6.3",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-svg-sprite": "^1.5.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.1.0"
+  }
+}
