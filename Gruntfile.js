@@ -41,16 +41,20 @@ module.exports = function(grunt) {
         },
         src: ['src/templates/pages/en/*.hbs'],
         dest: './web'
-      }
+      },
+      lt: {
+        options: {
+          data: ['src/templates/data/lt/*.yml']
+        },
+        src: ['src/templates/pages/lt/*.hbs'],
+        dest: './web/lt/'
+      },
     },
     svg_sprite: {
       generate: {
         cwd: 'web/assets/vendor/material-design-icons',
         src: [
-          '../../../../web/assets/images/ic_menu_24px.svg',
-          '../../../../web/assets/images/ic_search_24px.svg',
-          '../../../../web/assets/images/ic_home_24px.svg',
-          '../../../../web/assets/images/ic_target_24px.svg',
+          '../../../../web/assets/images/ic_menu_24px.svg'
         ],
         dest: 'src/sprites',
         options: {
@@ -83,6 +87,7 @@ module.exports = function(grunt) {
       }
     },
   });
+
   [
     'grunt-contrib-compass',
     'grunt-contrib-watch',
@@ -91,11 +96,14 @@ module.exports = function(grunt) {
   ].forEach(grunt.loadNpmTasks);
 
   grunt.registerTask('assemble:site', [
-    'assemble:en'
+    'assemble:en',
+    'assemble:lt'
   ]);
   // Default task(s).
   grunt.registerTask('default', [
     'compass:dist',
-    'assemble:en'
+    'assemble:en',
+    'assemble:lt'
   ]);
+
 };
