@@ -41,14 +41,8 @@ module.exports = function(grunt) {
         },
         src: ['src/templates/pages/en/*.hbs'],
         dest: './web'
-      },
-      lt: {
-        options: {
-          data: ['src/templates/data/lt/*.yml']
-        },
-        src: ['src/templates/pages/lt/*.hbs'],
-        dest: './web/lt/'
-      },
+      }
+      
     },
     svg_sprite: {
       generate: {
@@ -96,14 +90,14 @@ module.exports = function(grunt) {
   ].forEach(grunt.loadNpmTasks);
 
   grunt.registerTask('assemble:site', [
-    'assemble:en',
-    'assemble:lt'
+    'assemble:en'
+    
   ]);
   // Default task(s).
   grunt.registerTask('default', [
     'compass:dist',
-    'assemble:en',
-    'assemble:lt'
+    'assemble:en'
+   
   ]);
 
 };

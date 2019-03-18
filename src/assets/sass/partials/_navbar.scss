@@ -44,9 +44,7 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        .circle{
-          @include circle($height: 50px, $width: 50px)
-        }
+        
       }
     }
   }
