@@ -5,7 +5,6 @@
 }
 @mixin arrow($color: #000, $rotate: -45deg) {
   content: "";
-  position: absolute;
   right: 20px;
   border: solid $color;
   border-width: 0 2px 2px 0;

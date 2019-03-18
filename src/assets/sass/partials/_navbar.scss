@@ -1,5 +1,4 @@
 .topbar {
-  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
@@ -23,7 +22,7 @@
           justify-content: space-between;
     }
     &__lists {
-
+          
       &--left {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -34,9 +33,19 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        a{
+          text-decoration: none;
+          color: black;
+            &:after{
+              @include arrow($rotate: -45deg);
+            }
+          
+       }
       }
       &__link {
         margin-right: 20px;
+        
+       
       }
     }
     .dropdown-menu{
