@@ -2,314 +2,36 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">  
-  <link rel="stylesheet" href="assets/css/app.css">  
+  <link rel="stylesheet" href="assets/css/app.css">
   <title></title>
 </head>
 <body>
-  
   <div class="topbar">
-    <nav class="nav-bar nav-bar--left">
-      <ul class="nav-bar__lists">
-        <li><a class="nav-bar__lists__link" href="#">
-          <a>LOGO</a>
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <nav class="nav-bar nav-bar--right">
-    <ul class="nav-bar__lists nav-bar__lists--right">
-      <li class="nav-bar__lists__link">
-        <a href="#" role="button" id="activities" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span>Home</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="activities">
-          <a class="dropdown-menu__item" href="#">Action</a>
-          <a class="dropdown-menu__item" href="#">Another action</a>
-          <a class="dropdown-menu__item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-bar__lists__link">
-        <a href="#" role="button" id="activities" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span>Pages</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="activities">
-          <a class="dropdown-menu__item" href="#">Action</a>
-          <a class="dropdown-menu__item" href="#">Another action</a>
-          <a class="dropdown-menu__item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-bar__lists__link">
-        <a href="#" role="button" id="activities" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span>Blog</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="activities">
-          <a class="dropdown-menu__item" href="#">Action</a>
-          <a class="dropdown-menu__item" href="#">Another action</a>
-          <a class="dropdown-menu__item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-bar__lists__link">
-        <a href="#" role="button" id="activities" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span>Shop</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="activities">
-          <a class="dropdown-menu__item" href="#">Action</a>
-          <a class="dropdown-menu__item" href="#">Another action</a>
-          <a class="dropdown-menu__item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-bar__lists__link">
-        <a href="#" role="button" id="Something" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span>Portfolio</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="something">
-          <a class="dropdown-menu__item" href="#">
-            <div class="circle circle--danger">
-            </div>
-            <div class="dropdown-menu__item__title">
-              <h6>Robert S. commented</h6>
-              <p>1min</p>
-            </div>
-          </a>
-          <a class="dropdown-menu__item" href="#">
-            <svg class="svg-icon">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
-            </svg>
-            <div class="dropdown-menu__item__title">
-              <h6>Robert S. commented</h6>
-              <p>1min</p>
-            </div>
-          </a>
-          <a class="dropdown-menu__item" href="#">
-            <svg class="svg-icon">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
-            </svg>
-            <div class="dropdown-menu__item__title">
-              <h6>Robert S. commented</h6>
-              <p>1min</p>
-            </div>
-          </a>
-        </div>
-      </li>
-      <li class="nav-bar__lists__link">
-        <a href="#" role="button" id="activities" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span>Elements</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="activities">
-          <a class="dropdown-menu__item" href="#">Action</a>
-          <a class="dropdown-menu__item" href="#">Another action</a>
-          <a class="dropdown-menu__item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-  </nav>
-  </div>
-  
+    <div class="topbar--left">
+      <a href="">LOGO</a>
+    </div>
+    <div class="topbar--right">
+      <ul class="topbar--right__lists">
+        <li class="topbar--right__lists__list"> <a href="">Home</a></li>
+        <li class="topbar--right__lists__list"><a href="">Pages</a></li>
+        <li class="topbar--right__lists__list"><a href="">Blog</a></li>
+        <li class="topbar--right__lists__list"><a href="">Shop</a></li>
+        <li class="topbar--right__lists__list"><a href="">Portfolio</a></li>
+        <li class="topbar--right__lists__list"><a href="">Elements</a></li>
+      </ul>
+    </div>
+  </div>  
   <div id="dashboard" class="section-container">
-    <p>Welcome</p>
     
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-6 col-xl-3">
-            <div class="boxes boxes--right">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="circle circle--border circle--danger">
-                          <svg class="svg-icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#target"></use>
-                          </svg>
-                        </div>
-                    </div>
-                    <div class="col-8 v-align">
-                        <h5>64.570</h5>
-                        <p>Today&#x27;s visits</p>
-                    </div>
-                </div>
+    <div class="header">
+        <div class="header--slider">
+            <h5 class: "header--slider__title"></h5>
+            <h5 class: "header--slider__subtitle"></h5>
+            <div class="header--slider__button">
+    
             </div>
         </div>
-        <div class="col-lg-6 col-xl-3">
-            <div class="boxes boxes--right">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="circle circle--border circle--secondary">
-                          <svg class="svg-icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#target"></use>
-                          </svg>
-                        </div>
-                    </div>
-                    <div class="col-8 v-align">
-                        <h5>64.570</h5>
-                        <p>Today&#x27;s sales</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-xl-3">
-            <div class="boxes boxes--right">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="circle circle--border circle--primary">
-                          <svg class="svg-icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#target"></use>
-                          </svg>
-                        </div>
-                    </div>
-                    <div class="col-8 v-align">
-                        <h5>64.570</h5>
-                        <p>Total revenue</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-xl-3">
-            <div class="boxes boxes--right">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="circle circle--border circle--success">
-                          <svg class="svg-icon">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#target"></use>
-                          </svg>
-                        </div>
-                    </div>
-                    <div class="col-8 v-align">
-                        <h5>64.570</h5>
-                        <p>conversion</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-4">
-            <div class="boxes">
-                <h6 class="boxes__title">Yearly sales report</h6>
-                <canvas id="myChart"></canvas>
-            </div>
-        </div>
-        <div class="col-xl-4">
-            <div class="boxes">
-                <h6 class="boxes__title">Yearly sales report</h6>
-                <canvas id="myChart1"></canvas>
-            </div>
-        </div>
-        <div class="col-xl-4">
-            <div class="boxes">
-                <h6 class="boxes__title">Yearly sales report</h6>
-                <canvas id="myChart2"></canvas>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-8">
-        <div class="boxes">
-              <h6>Latest project</h6>
-          <p>Our awesome text goes here</p>
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Project name</th>
-                <th scope="col">Start date</th>
-                <th scope="col">Due date</th>
-                <th scope="col">Status</th>
-                <th scope="col">Assign</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row borderless">1</th>
-                <td>Front end</td>
-                <td>01/15/2015</td>
-                <td>26/09/2017</td>
-                <td>released</td>
-                <td>Coderthemes</td>
-              </tr>
-              <tr>
-                <th scope="row borderless">1</th>
-                <td>Front end</td>
-                <td>01/15/2015</td>
-                <td>26/09/2017</td>
-                <td>released</td>
-                <td>Coderthemes</td>
-              </tr>
-              <tr>
-                <th scope="row borderless">1</th>
-                <td>Front end</td>
-                <td>01/15/2015</td>
-                <td>26/09/2017</td>
-                <td>released</td>
-                <td>Coderthemes</td>
-              </tr>
-              <tr>
-                <th scope="row borderless">1</th>
-                <td>Front end</td>
-                <td>01/15/2015</td>
-                <td>26/09/2017</td>
-                <td>released</td>
-                <td>Coderthemes</td>
-              </tr>
-              <tr>
-                <th scope="row borderless">1</th>
-                <td>Front end</td>
-                <td>01/15/2015</td>
-                <td>26/09/2017</td>
-                <td>released</td>
-                <td>Coderthemes</td>
-              </tr>
-              <tr>
-                <th scope="row borderless">1</th>
-                <td>Front end</td>
-                <td>01/15/2015</td>
-                <td>26/09/2017</td>
-                <td>released</td>
-                <td>Coderthemes</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-        <div class="col-xl-4">
-            <div class="row">
-              <div class="col-12">
-                <div class="boxes boxes--flex">
-                  <img class="boxes__image" src="assets/images/profile.jpg" alt="">
-                  <div class="boxes__user-info v-align">
-                    <h6>Yearly sales report</h6>
-                    <p>ototototo</p>
-                    <p class="user-role user-role--user">user</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="boxes boxes--flex">
-                  <img class="boxes__image" src="assets/images/profile.jpg" alt="">
-                  <div class="boxes__user-info v-align">
-                    <h6>Yearly sales report</h6>
-                    <p>ototototo</p>
-                    <p class="user-role user-role--master">master</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="boxes boxes--flex">
-                  <img class="boxes__image" src="assets/images/profile.jpg" alt="">
-                  <div class="boxes__user-info v-align">
-                    <h6>Yearly sales report</h6>
-                    <p>ototototo</p>
-                    <p class="user-role user-role--admin">admin</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-  </div>
+    </div>  </div>
 
   <footer></footer>
 

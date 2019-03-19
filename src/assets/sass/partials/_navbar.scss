@@ -1,59 +1,36 @@
-.topbar {
-  top: 0;
-  left: 0;
-  z-index: 999;
+.topbar{
   width: 100%;
+  height: $nav-height;
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
   line-height: $nav-height;
-  .nav-bar {
-    position: relative;
-    height: $nav-height;
-    background: $default-bg;
-    &--left {
-      float: left;
-      text-align: center;
-      width: $nav-left-width;
-    }
-    &--right {
-      display: -webkit-box;
-      display: -ms-flexbox;
+  
+  &--left{
+    margin-left: 50px;
+  }
+  &--right{
+    &__lists{
+      margin-left: 200px;
       display: flex;
-      -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-          justify-content: space-between;
-    }
-    &__lists {
-          
-      &--left {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-      }
-      &--right {
-        float: right;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        a{
-          text-decoration: none;
-          color: black;
-            &:after{
-              @include arrow($rotate: -45deg);
-            }
-          
-       }
-      }
-      &__link {
+      flex-direction: row;
+      justify-content: space-between;
+      &__list{
         margin-right: 20px;
-        
-       
-      }
-    }
-    .dropdown-menu{
-      &__item{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        
+        a{
+          color: #a1a2a4;
+          text-decoration: none;
+          margin-right: 2px;
+          &:hover{
+            color:black;
+          }
+          &::after{
+            @include arrow($rotate: 45deg);
+            margin-bottom: 2px;
+            margin-left: 3px;
+          } 
+        } 
+          
       }
     }
   }

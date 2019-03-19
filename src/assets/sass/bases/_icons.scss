@@ -3,14 +3,13 @@
   width: 24px;
   fill: salmon;
 }
-@mixin arrow($color: #000, $rotate: -45deg) {
+@mixin arrow($color:#a1a2a4, $rotate: 45deg) {
   content: "";
-  right: 20px;
   border: solid $color;
   border-width: 0 2px 2px 0;
   display: inline-block;
-  top: 50%;
-  padding: 3px;
+  top: 40%;
+  padding: 2px;
   -webkit-transform: rotate($rotate);
           transform: rotate($rotate);
 }
