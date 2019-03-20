@@ -5,9 +5,16 @@
   display: flex;
   justify-content: space-between;
   line-height: $nav-height;
+  font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    
+    font-family:  Roboto,sans-serif;
+    letter-spacing: 0;
+    text-align: left;
   
   &--left{
-    margin-left: 50px;
+    margin-left: 200px;
   }
   &--right{
     &__lists{
