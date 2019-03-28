@@ -7,10 +7,14 @@
 </head>
 <body>
   {{>navbar}}
-  
+  {{>header}}
   <div id="dashboard" class="section-container">
-    {{>title}}
-    {{body}}
+
+    <div class="">
+      {{>title}}
+      {{body}}
+
+    </div>
   </div>
 
   {{#is basename 'dashboard'}}

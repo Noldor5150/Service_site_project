@@ -1,10 +1,10 @@
 .header{
-height: 820px;
+height: 130vh;
 background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ),url("../images/bmwz4.jpg") center no-repeat;
 // background-image: url("../images/bmwz4.jpg");
 // background-repeat: no-repeat;
 background-size: cover;
-position: relative;
+
 //background-position: center;
 
   &--slider{
@@ -19,7 +19,7 @@ position: relative;
      text-transform: uppercase;
      line-height: 1em;
      padding-top: 270px;
-     padding-left: 200px;
+     padding-left: 30px;
      &__title{
         letter-spacing: 0;
         padding: 0 15px 0 15px;
@@ -46,7 +46,7 @@ position: relative;
         letter-spacing: .7px;
         background-color: #f96020;
         padding: 17px 45px 19px 45px;
-        margin: 38px 0 0 15px;
+        margin: 39px 0 0 19px;
         border-radius: 0;
         display: inline-block;
         line-height: 1;
@@ -55,16 +55,17 @@ position: relative;
   }
 }
 .absolute{
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
-    height: 270px;
+    height: 272px;
     
     &--element{
-      position: absolute;
-      background-color:#f96020;
+      margin-top: -80px;
       z-index: 1; 
+      background-color:#f96020;
       height: 350px;
-      width: 270px;
+      width: 272px;
     }
   }
