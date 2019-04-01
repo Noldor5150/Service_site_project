@@ -19,16 +19,16 @@ background-size: cover;
      text-transform: uppercase;
      line-height: 1em;
      padding-top: 270px;
-     padding-left: 30px;
+     
      &__title{
         letter-spacing: 0;
-        padding: 0 15px 0 15px;
+        padding: 0 15px 0 0px;
         margin: 53px 0 0 0;
         text-align: left;
      }
      &__subtitle{
         letter-spacing: 0;
-        padding: 0 15px 0 15px;
+        padding: 0 15px 0 0px;
         margin: 16px 0 10px 0;
         text-align: left;
      }
@@ -36,7 +36,7 @@ background-size: cover;
         font-size: 80px;
         font-weight: 800;
         letter-spacing: -.3px;
-        padding: 10px 15px 0 15px;
+        padding: 10px 15px 0 0px;
         margin: 3px 0 0 0;
         align-self: flex-start;
      }
@@ -46,11 +46,12 @@ background-size: cover;
         letter-spacing: .7px;
         background-color: #f96020;
         padding: 17px 45px 19px 45px;
-        margin: 39px 0 0 19px;
+        margin: 39px 0 0 0px;
         border-radius: 0;
         display: inline-block;
         line-height: 1;
-        width: 272px; //gali but problemu
+        color: #fff;
+        
      }
   }
 }
@@ -59,13 +60,66 @@ background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 272px;
+    
     
     &--element{
       margin-top: -80px;
       z-index: 1; 
       background-color:#f96020;
-      height: 350px;
-      width: 272px;
+      height: 300px;
     }
+  }
+
+  .headerbottom{
+     background-color: #f6f6f7;
+     margin-top: 80px;
+     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+     padding: 77px 0 80px 0;
+     &__title{
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .7px;
+      color: #b7b9be;
+     }
+     &__subtitle{
+      font-size: 38px;
+      font-weight: 300;
+      text-transform: uppercase;
+     }
+     &__desc{
+      font-size: 38px;
+      font-weight: 800;
+      text-transform: uppercase;
+      line-height: 1.25em;
+      letter-spacing: -.2px;
+     }
+     &__text{
+      color: #8d98a1;
+      font-family: "Open Sans",Sans-serif;
+      font-size: 14px;
+      line-height: 1.5em;
+      padding-top: 15px;
+      padding-bottom: 20px;
+     }
+     &__button{
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: .7px;
+      background-color: #f96020;
+      padding: 17px 45px 19px 45px;
+      margin: 39px 0 0 0px;
+      border-radius: 0;
+      display: inline-block;
+      line-height: 1;
+      color: #fff;
+      
+      
+
+     }
+     &__list{
+      &__item{
+         padding: 15px;
+      }
+   }
   }
