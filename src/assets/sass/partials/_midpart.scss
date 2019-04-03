@@ -1,0 +1,57 @@
+.midpart-top{
+     
+    &__top{
+        text-align: center;
+        h2{
+            color: #b7b9be;
+            font-family: "Raleway",Sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .4px;
+        }
+        p{
+            color: #1b242b;
+            font-family: "Raleway",Sans-serif;
+            font-size: 38px;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 1em;
+            letter-spacing: -.2px;
+            strong {
+                font-weight: bold;
+            }
+        }
+        
+    }
+    &__element{
+        &__img1{
+           min-height: 270px;
+           max-width: 100%;
+           background-image: url("../images/appointment.jpg");
+           background-repeat: no-repeat;
+           background-size: cover; 
+        }
+        &__img2{
+            min-height: 270px;
+            max-width: 100%;
+            background-image: url("../images/repair.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+         }
+         &__img3{
+            min-height: 270px;
+            max-width: 100%;
+            background-image: url("../images/getcarkey.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+         }
+         &__img4{
+            min-height: 270px;
+            max-width: 100%;
+            background-image: url("../images/opencar.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+         }
+    }
+}
