@@ -69,7 +69,6 @@ background-size: cover;
       height: 300px;
     }
   }
-
   .headerbottom{
      background-color: #f6f6f7;
      margin-top: 80px;
@@ -99,8 +98,8 @@ background-size: cover;
       font-family: "Open Sans",Sans-serif;
       font-size: 14px;
       line-height: 1.5em;
-      padding-top: 15px;
-      padding-bottom: 20px;
+      padding-top: 50px;
+      padding-bottom: 0px;
      }
      &__button{
       font-size: 14px;
@@ -113,13 +112,22 @@ background-size: cover;
       display: inline-block;
       line-height: 1;
       color: #fff;
-      
-      
-
+      text-transform: uppercase;
      }
      &__list{
       &__item{
-         padding: 15px;
+         padding: 4px;
+         span{
+            margin-left: 2px; 
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0;          
+         }
+         &::before{
+            @include arrow($rotate: -45deg, $color: $orange, $size: 3px);
+            margin-bottom: 2px;
+            margin-left: 3px;
+         }
       }
    }
-  }
+}
