@@ -1,0 +1,40 @@
+.coupon{
+    font-family: "Raleway",Sans-serif;
+    background-color: $orange;
+    color:white;
+    
+    &__discount{
+        border-left: 5px;
+        border-right: 5px;
+        border-style: dashed;
+        border-color: white;
+        P{
+            margin-bottom: -20px;
+        }
+        &__flex{
+            display: flex;
+            justify-content: center;
+            &__number{
+                h2{
+                    font-size: 96px;
+                    font-weight: 720;
+                }
+            }
+            &__off{
+                h2{
+                    &:first-child{
+                        font-size: 54px;
+                        margin-top: 24px;
+                    }  
+                    &:last-child{
+                        font-weight: 720;
+                        margin-top: -15px;
+                        font-size: 30px; 
+                    }
+                }
+
+            }
+        }
+
+    }
+}
