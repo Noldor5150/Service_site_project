@@ -1,0 +1,39 @@
+.footerTop{
+    padding-top: 80px;
+    padding-bottom: 74px;
+    &__title{
+        text-align: center;
+        margin-bottom: 60px;
+        h2{
+            color: #b7b9be;
+            font-family: "Raleway",Sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .4px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #1b242b;
+            font-family: "Raleway",Sans-serif;
+            font-size: 38px;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 1em;
+            letter-spacing: -.2px;
+            strong {
+                font-weight: bold;
+            }
+        }
+    }
+    &__element{
+       background-color:  #f6f6f7;
+       .circle{
+           @include circle($height: 70px, $width: 70px);
+           background-color: $orange;
+           .svg-icon{
+               fill:white;
+           }
+       }
+    }
+}
