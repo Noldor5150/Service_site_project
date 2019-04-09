@@ -1,0 +1,86 @@
+.footerMid{
+    padding-top: 80px;
+    background-color: #1b242b;
+    color: white;
+    font-family: "Raleway",Sans-serif;
+    &__title{
+        text-align: center;
+        margin-bottom: 40px;
+        p{
+            color: #757981;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .6px;
+            margin-bottom: 10px;
+        }
+         h2{
+            &:first-of-type{
+                font-size: 38px;
+                font-weight: 800;
+                text-transform: uppercase;
+                line-height: 1.25em;
+                letter-spacing: -.2px;
+            }  
+            &:last-of-type{
+                font-size: 38px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+        }
+    }
+    &__elementTop{
+        display: flex;
+        flex-direction: row;
+        padding: 4px 0 62px 0;
+        .number{
+            border-right: 2px solid #757981;
+            color: $orange;
+            font-size: 80px;
+            font-weight: 800;
+            line-height: 1em;
+            margin-top: -14px;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+        .text{
+            h2{
+                &:first-child{
+                    font-size: 24px;
+                    font-weight: 300;
+                    line-height: 1.5em;
+                    letter-spacing: 1px;
+                }
+                &:last-of-type{
+                    font-size: 24px;
+                    font-weight: 800;
+                    letter-spacing: .9px;
+                }
+            }
+
+        }
+    }
+    &__imageSection{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        &__element{
+            width: 25%;
+            min-height: 376px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .first{
+            background-image: url("../images/carrepair1.jpg")
+        }
+        .second{
+            background-image: url("../images/carrepair2.jpg")
+        }
+        .third{
+            background-image: url("../images/carrepair3.jpg")
+        }
+        .fourth{
+            background-image: url("../images/carrepair4.jpg")
+        }
+    }
+}
