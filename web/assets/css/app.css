@@ -10304,6 +10304,7 @@ h6 {
 .footerTop {
   padding-top: 80px;
   padding-bottom: 74px;
+  font-family: "Raleway",Sans-serif;
 }
 .footerTop__title {
   text-align: center;
@@ -10311,7 +10312,6 @@ h6 {
 }
 .footerTop__title h2 {
   color: #b7b9be;
-  font-family: "Raleway",Sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -10320,7 +10320,6 @@ h6 {
 }
 .footerTop__title p {
   color: #1b242b;
-  font-family: "Raleway",Sans-serif;
   font-size: 38px;
   font-weight: 300;
   text-transform: uppercase;
@@ -10454,4 +10453,70 @@ h6 {
 }
 .footerMid__imageSection .fourth {
   background-image: url("../images/carrepair4.jpg");
+}
+
+.footerBottom {
+  padding-top: 80px;
+  padding-bottom: 74px;
+  background-color: #f6f6f7;
+  font-family: "Raleway",Sans-serif;
+}
+.footerBottom__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.footerBottom__title h2 {
+  color: #b7b9be;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  margin-bottom: 20px;
+}
+.footerBottom__title p {
+  color: #1b242b;
+  font-size: 38px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -.2px;
+}
+.footerBottom__title p strong {
+  font-weight: bold;
+}
+.footerBottom__element {
+  min-height: 282px;
+  max-width: 100%;
+  background-color: #fff;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  margin: 0 15px 0 15px;
+  padding: 37px 30px 48px 30px;
+  display: flex;
+  flex-direction: row;
+}
+.footerBottom__element .icon {
+  margin-top: -20px;
+}
+.footerBottom__element .icon .svg-icon {
+  fill: #f96020;
+  height: 32px;
+  width: 32px;
+}
+.footerBottom__element p {
+  color: #8d98a1;
+  font-family: "Open Sans",Sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+.footerBottom__element h6:first-of-type {
+  font-family: "Open Sans",Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.footerBottom__element h6:last-of-type {
+  font-family: "Open Sans",Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
 }

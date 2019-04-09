@@ -52,6 +52,8 @@ module.exports = function(grunt) {
           '../../../../web/assets/images/ic_calc_24px.svg',
           '../../../../web/assets/images/ic_gear_24px.svg',
           '../../../../web/assets/images/ic_diploma_24px.svg',
+          '../../../../web/assets/images/ic_quote_24px.svg',
+          '../../../../web/assets/images/ic_quot_24px.svg'
         ],
         dest: 'src/sprites',
         options: {
