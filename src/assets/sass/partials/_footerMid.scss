@@ -65,21 +65,15 @@
         width: 100%;
         &__element{
             width: 25%;
-            min-height: 376px;
             background-repeat: no-repeat;
             background-size: cover;
-        }
-        .first{
-            background-image: url("../images/carrepair1.jpg")
-        }
-        .second{
-            background-image: url("../images/carrepair2.jpg")
-        }
-        .third{
-            background-image: url("../images/carrepair3.jpg")
-        }
-        .fourth{
-            background-image: url("../images/carrepair4.jpg")
+
+            img{
+                max-width: 100%;
+                height: auto;
+                vertical-align: middle;
+                border-style: none;
+            }
         }
     }
 }

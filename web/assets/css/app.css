@@ -10330,7 +10330,7 @@ h6 {
   font-weight: bold;
 }
 .footerTop__element {
-  min-height: 312px;
+  min-height: 320px;
   max-width: 100%;
   background-color: #f6f6f7;
   display: flex;
@@ -10438,21 +10438,14 @@ h6 {
 }
 .footerMid__imageSection__element {
   width: 25%;
-  min-height: 376px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.footerMid__imageSection .first {
-  background-image: url("../images/carrepair1.jpg");
-}
-.footerMid__imageSection .second {
-  background-image: url("../images/carrepair2.jpg");
-}
-.footerMid__imageSection .third {
-  background-image: url("../images/carrepair3.jpg");
-}
-.footerMid__imageSection .fourth {
-  background-image: url("../images/carrepair4.jpg");
+.footerMid__imageSection__element img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
 }
 
 .footerBottom {
@@ -10485,22 +10478,26 @@ h6 {
   font-weight: bold;
 }
 .footerBottom__element {
-  min-height: 282px;
+  min-height: 300px;
   max-width: 100%;
   background-color: #fff;
   transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-  margin: 0 15px 0 15px;
   padding: 37px 30px 48px 30px;
   display: flex;
   flex-direction: row;
 }
 .footerBottom__element .icon {
-  margin-top: -20px;
+  margin-left: -5px;
+  margin-right: 10px;
 }
 .footerBottom__element .icon .svg-icon {
   fill: #f96020;
   height: 32px;
   width: 32px;
+}
+.footerBottom__element .text {
+  margin-right: 10px;
+  margin-top: 20px;
 }
 .footerBottom__element p {
   color: #8d98a1;
@@ -10513,6 +10510,8 @@ h6 {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0;
+  margin-top: 25px;
+  margin-bottom: 8px;
 }
 .footerBottom__element h6:last-of-type {
   font-family: "Open Sans",Sans-serif;

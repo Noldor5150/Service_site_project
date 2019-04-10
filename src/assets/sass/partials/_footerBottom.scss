@@ -27,21 +27,25 @@
         }
     }
     &__element{
-        min-height: 282px;
+        min-height: 300px;
         max-width: 100%;
         background-color: #fff;
         transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-        margin: 0 15px 0 15px;
         padding: 37px 30px 48px 30px;
         display: flex;
         flex-direction: row;
         .icon{
-            margin-top: -20px;
+            margin-left: -5px;
+            margin-right: 10px;
             .svg-icon{
                 fill: $orange;
                 height: 32px;
                 width: 32px;
             }
+        }
+        .text{
+            margin-right: 10px;
+            margin-top: 20px;
         }
         p{
             color: #8d98a1;
@@ -55,6 +59,8 @@
                 font-size: 14px;
                 font-weight: 700;
                 letter-spacing: 0;
+                margin-top: 25px;
+                margin-bottom: 8px;
             }
             &:last-of-type{
                 font-family: "Open Sans",Sans-serif;
