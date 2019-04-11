@@ -1,0 +1,67 @@
+.footer{
+    margin-top: 60px;
+    &__orange{
+    padding: 76px 0 76px 0;
+    background-color: $orange;
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    border-bottom: 1px solid #fff;
+
+    &__element{
+        display:flex;
+        flex-direction: row;
+     
+        .icon{
+            .svg-icon{
+                fill: #fff;
+                height: 44px;
+                width: 44px;
+                margin-top: -14px;
+            }
+        }
+        .text{
+            margin-left: 10px;
+            p{
+
+            }
+            h6{
+
+            }
+        }
+    }
+  }
+  &__black{
+    padding: 76px 0 76px 0;
+    background-color: #1b242b;
+    &__top{
+        &__right{
+           color: #fff;
+        }
+        &__left{
+           &__lists{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                &__list{
+                    margin-right: 20px;
+                    a{
+                    color: #757981;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    letter-spacing: .2px;
+                    text-decoration: none;
+                    &:hover{
+                         color:#fff;
+                        }
+                    }
+               }
+            }
+        }
+    }
+  }
+}
